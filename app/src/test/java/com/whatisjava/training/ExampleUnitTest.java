@@ -1,4 +1,4 @@
-package com.android.whatisjava.training;
+package com.whatisjava.training;
 
 import org.junit.Test;
 
