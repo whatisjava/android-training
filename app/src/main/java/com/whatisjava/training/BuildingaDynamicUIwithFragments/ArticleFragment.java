@@ -65,7 +65,7 @@ public class ArticleFragment extends Fragment {
     }
 
     public void updateArticleView(int position) {
-//        TextView article = (TextView) getActivity().findViewById(R.id.article);
+//        TextView article = (TextView) getActivity().findViewById(R.id.article); // TODO 此处为null，为何？
         article.setText(Ipsum.Articles[position]);
         mCurrentPosition = position;
     }
