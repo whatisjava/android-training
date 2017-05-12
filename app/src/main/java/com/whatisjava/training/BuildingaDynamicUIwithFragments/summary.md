@@ -52,4 +52,7 @@
     * FragmentManager 类提供的方法让您可以在运行时为 Activity 添加、移除和替换片段，从而营造出动态的用户体验。
     * 如需执行添加或移除片段等事务，您必须使用 FragmentManager 创建 FragmentTransaction，后者将提供添加、移
     除、替换片段以及执行其他片段事务所需的 API。
-    * 如果您的 Activity 允许移除和替换片段，应在 Activity 的 onCreate() 方法执行期间为 Activity 添加初始片段。
+    * 如果您的 Activity 允许移除和替换片段，应在 Activity 的 onCreate() 方法执行期间为 Activity 添加初始片
+    段。
+    * 在处理片段（尤其是在运行时添加片段的情况下）时，请谨记以下重要准则：您的 Activity 布局必须包含一个可以插入
+    片段的容器 View，例如FrameLayout
