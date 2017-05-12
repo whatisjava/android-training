@@ -11,10 +11,22 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".BuildingaDynamicUIwithFragments.MainActivity"
-            android:label="@string/app_name" >
+            android:name=".build_your_first_app.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".building_a_dynamic_ui_with_fragments.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

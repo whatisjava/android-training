@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.whatisjava.training.BuildingaDynamicUIwithFragments;
+package com.whatisjava.training.building_a_dynamic_ui_with_fragments;
 
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
