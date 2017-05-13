@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">安卓培训</string>
+    <string name="first">第一个程序</string>
     <string name="fragment">片段</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="sqlite">数据库</string>
 </resources>

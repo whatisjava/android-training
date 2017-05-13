@@ -11,9 +11,8 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name=".build_your_first_app.MainActivity"
-            android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".MainActivity"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,13 +21,17 @@
         </activity>
 
         <activity
-            android:name=".building_a_dynamic_ui_with_fragments.MainActivity"
-            android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:name=".build_your_first_app.FirstActivity"
+            android:label="@string/first">
+        </activity>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity
+            android:name=".building_a_dynamic_ui_with_fragments.FragmentTestActivity"
+            android:label="@string/fragment">
+        </activity>
+        <activity
+            android:name=".saving_data.SqliteTestActivity"
+            android:label="@string/sqlite">
         </activity>
     </application>
 

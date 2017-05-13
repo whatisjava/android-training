@@ -21,7 +21,7 @@ import android.support.v4.app.FragmentTransaction;
 
 import com.whatisjava.training.R;
 
-public class MainActivity extends FragmentActivity 
+public class FragmentTestActivity extends FragmentActivity
         implements HeadlinesFragment.OnHeadlineSelectedListener {
 
     /** Called when the activity is first created. */
